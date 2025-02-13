@@ -1,4 +1,4 @@
-# 🎵 Basic Song Recommendation App
+# 🎵 Taylor Swift Song Recommendation App
 
 A simple song recommendation app that suggests similar songs based on lyrics similarity using NLP techniques.
 
