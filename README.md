@@ -16,7 +16,7 @@ A simple song recommendation app that suggests similar songs based on lyrics sim
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/song-recommender.git
+   git clone https://github.com/ffrhnaa7/song-recommender.git
    cd song-recommender
    ```
 
