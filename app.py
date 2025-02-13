@@ -20,7 +20,7 @@ def get_recommendations(song_title, num_recommendations=5):
     similarities = cosine_similarity(lyrics_matrix[idx], lyrics_matrix).flatten()
     similar_indices = similarities.argsort()[-(num_recommendations+1):-1][::-1]
     
-    return songs.iloc[similar_indices][['song_title', 'artist']].to_dict(orient='records')
+    return songs.iloc[similar_indices][['song_title', 'album']].to_dict(orient='records')
 
 @app.route('/')
 def home():
